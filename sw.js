@@ -2,10 +2,10 @@ self.addEventListener('install', e => {
   e.waitUntil(
     caches.open('vegano-app').then(cache => {
       return cache.addAll([
-        './',
-        './index.html',
-        './manifest.json',
-        './vegan-icon.png'
+        '/manifiesto-vegan/',
+        '/manifiesto-vegan/index.html',
+        '/manifiesto-vegan/manifest.json',
+        '/manifiesto-vegan/vegan-icon.png'
       ]);
     })
   );

@@ -1,13 +1,13 @@
 {
   "name": "Manifiesto Vegano",
   "short_name": "Vegan",
-  "start_url": "./index.html",
+  "start_url": "/manifiesto-vegan/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#34d399",
   "icons": [
     {
-      "src": "./vegan-icon.png",
+      "src": "/manifiesto-vegan/vegan-icon.png",
       "type": "image/png",
       "sizes": "192x192"
     }

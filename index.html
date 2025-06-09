@@ -4,12 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Manifiesto Vegano</title>
-  <link rel="manifest" href="./manifest.json" />
-  <link rel="icon" href="./vegan-icon.png" />
+  <link rel="manifest" href="/manifiesto-vegan/manifest.json" />
+  <link rel="icon" href="/manifiesto-vegan/vegan-icon.png" />
   <meta name="theme-color" content="#34d399" />
   <script>
     if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("./sw.js").then(() =>
+      navigator.serviceWorker.register("/manifiesto-vegan/sw.js").then(() =>
         console.log("Service Worker registrado")
       );
     }
